@@ -149,5 +149,21 @@ h4 {
         background-image: url(images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
         background-size:contain;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+        #card {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #img img {
+        width: 100%;
+    }
+
+    #ofert {
+        padding: 2rem 1rem;
     }
 }
